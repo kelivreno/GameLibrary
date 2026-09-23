@@ -39,11 +39,22 @@ func main() {
 		Price:       14.99,
 	}
 
+	hades := Game{
+		Name:        "Hades",
+		Rating:      9,
+		Finished:    true,
+		HoursPlayed: 40,
+		Developer:   "Supergiant Games",
+		Price:       24.99,
+	}
+
 	games := []Game{
 		minecraft,
 		terraria,
 		stardewValley,
 	}
+
+	games = append(games, hades)
 
 	for index, game := range games {
 		fmt.Println(index, game.Name, game.Rating)
