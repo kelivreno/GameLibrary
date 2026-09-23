@@ -45,8 +45,8 @@ func main() {
 		stardewValley,
 	}
 
-	for _, game := range games {
-		fmt.Println(game.Name)
+	for index, game := range games {
+		fmt.Println(index, game.Name, game.Rating)
 	}
 
 }
