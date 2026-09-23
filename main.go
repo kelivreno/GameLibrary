@@ -45,8 +45,8 @@ func main() {
 		stardewValley,
 	}
 
-	fmt.Println(games[1].Name)
-	fmt.Println(games[2].Rating)
-	fmt.Println(games[0].Developer)
+	for _, game := range games {
+		fmt.Println(game.Name)
+	}
 
 }
