@@ -39,8 +39,12 @@ func main() {
 		Price:       14.99,
 	}
 
-	fmt.Println(minecraft.Name)
-	fmt.Println(terraria.Name)
-	fmt.Println(stardewValley.Name)
+	games := []Game{
+		minecraft,
+		terraria,
+		stardewValley,
+	}
+
+	fmt.Println(games[0])
 
 }
