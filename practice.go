@@ -14,6 +14,7 @@ func main() {
 	hoursPlayed += 25
 	price += 5.00
 	rating -= 1
+	finished = true
 
 	fmt.Println(name)
 	fmt.Println(rating)
