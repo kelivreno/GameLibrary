@@ -7,8 +7,14 @@ func main() {
 	name := "Minecraft"
 	rating := 9
 	hoursPlayed := 125
+	developer := "Mojang"
+	finished := false
+
+	hoursPlayed += 25
 
 	fmt.Println(name)
 	fmt.Println(rating)
 	fmt.Println(hoursPlayed)
+	fmt.Println(developer)
+	fmt.Println(finished)
 }
