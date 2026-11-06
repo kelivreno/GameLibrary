@@ -18,6 +18,13 @@ func main() {
 
 	isHighlyRated := rating >= 8
 
+	if finished {
+		fmt.Println("Completed")
+	} else {
+		fmt.Println("Still playing")
+	}
+	
+
 	fmt.Println(name)
 	fmt.Println(rating)
 	fmt.Println(hoursPlayed)
