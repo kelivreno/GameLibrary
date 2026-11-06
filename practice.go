@@ -16,7 +16,7 @@ func main() {
 	rating -= 1
 	finished = true
 
-	isHighlyRated := rating >=8
+	isHighlyRated := rating >= 8
 
 	fmt.Println(name)
 	fmt.Println(rating)
