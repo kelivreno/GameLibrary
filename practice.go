@@ -16,10 +16,13 @@ func main() {
 	rating -= 1
 	finished = true
 
+	isHighlyRated := rating >=8
+
 	fmt.Println(name)
 	fmt.Println(rating)
 	fmt.Println(hoursPlayed)
 	fmt.Println(developer)
 	fmt.Println(finished)
 	fmt.Println(price)
+	fmt.Println(isHighlyRated)
 }
