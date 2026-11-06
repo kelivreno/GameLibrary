@@ -18,18 +18,28 @@ func main() {
 
 	isHighlyRated := rating >= 8
 
+	
+	
+
+	fmt.Println(name)
+	fmt.Println(hoursPlayed)
+	fmt.Println(developer)
+	
 	if finished {
 		fmt.Println("Completed")
 	} else {
 		fmt.Println("Still playing")
 	}
-	
-
-	fmt.Println(name)
-	fmt.Println(rating)
-	fmt.Println(hoursPlayed)
-	fmt.Println(developer)
-	fmt.Println(finished)
+	fmt.Println("^",finished)
 	fmt.Println(price)
-	fmt.Println(isHighlyRated)
+	fmt.Println(rating)
+	if rating >= 8 {
+		fmt.Println("Excellent")
+	} else if rating >=5 {
+		fmt.Println("Average")
+	} else {
+		fmt.Println("Poor")
+	}
+	fmt.Println("^",isHighlyRated)
+
 }
