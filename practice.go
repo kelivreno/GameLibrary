@@ -9,6 +9,7 @@ func main() {
 	hoursPlayed := 125
 	developer := "Mojang"
 	finished := false
+	price := 39.99
 
 	hoursPlayed += 25
 
@@ -17,4 +18,5 @@ func main() {
 	fmt.Println(hoursPlayed)
 	fmt.Println(developer)
 	fmt.Println(finished)
+	fmt.Println(price)
 }
