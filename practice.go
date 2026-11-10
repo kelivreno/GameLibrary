@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func practiceBasics() {
 
 	name := "Minecraft"
 	rating := 9
